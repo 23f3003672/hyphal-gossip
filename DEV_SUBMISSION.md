@@ -44,7 +44,7 @@ We benchmarked 4 decentralized gossip protocols across 2 rank budgets ($r=2, r=8
 | **E: Random Directions (Ablation)**| $r = 2$ | 56.70% | ±0.17% | 4.5231 | 230,400 B |
 | **E: Random Directions (Ablation)**| $r = 8$ | 56.70% | ±0.17% | 4.5282 | 921,600 B |
 
-![Sweep Comparison Chart](https://raw.githubusercontent.com/REPLACE_WITH_YOUR_USERNAME/hyphal-gossip/main/results/sweep_comparison.png)
+![Sweep Comparison Chart](https://raw.githubusercontent.com/23f3003672/hyphal-gossip/main/results/sweep_comparison.png)
 
 ### Key Discoveries:
 - **Client Drift Suppression**: Method D achieved the lowest cross-station disagreement in the entire sweep (**4.0512** vs **5.6052** for Method C—a **27.7% reduction** in network divergence). Orthogonalizing on receipt prevents the destructive spectral deflation caused by naive averaging.
@@ -60,12 +60,12 @@ From our city circuit logs, a local Gemma model synthesized this field trail not
 ## Code
 <!-- Show us the code! You can embed a GitHub repo directly into your post. -->
 
-GitHub Repository: [github.com/REPLACE_WITH_YOUR_USERNAME/hyphal-gossip](https://github.com/REPLACE_WITH_YOUR_USERNAME/hyphal-gossip)
+GitHub Repository: [github.com/23f3003672/hyphal-gossip](https://github.com/23f3003672/hyphal-gossip)
 
 ### Quick Reproduction:
 ```bash
 # 1. Clone & activate
-git clone https://github.com/REPLACE_WITH_YOUR_USERNAME/hyphal-gossip.git
+git clone https://github.com/23f3003672/hyphal-gossip.git
 cd hyphal-gossip
 python -m venv .venv
 source .venv/bin/activate  # Or .venv\Scripts\activate on Windows
